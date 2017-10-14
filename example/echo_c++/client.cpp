@@ -62,7 +62,8 @@ int main(int argc, char* argv[]) {
         example::EchoResponse response;
         brpc::Controller cntl;
 
-        request.set_message("hello world");
+        request.set_message("hello huawei, my name is chenyuanyang");
+		
 
         cntl.set_log_id(log_id ++);  // set by user
         if (FLAGS_protocol != "http" && FLAGS_protocol != "h2c")  {
